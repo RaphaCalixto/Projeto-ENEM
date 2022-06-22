@@ -1,0 +1,24 @@
+.button {
+  background-color: #FF8000; /* Green */
+  border: none;
+  color: white;
+  padding: 7px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.3s; /* Safari */
+  transition-duration: 0.3s;
+  width: 140px;
+  border-radius: 6px 6px;
+}
+
+.button1 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.24),0 14px 47px 0 rgba(0,0,0,0.19);
+}

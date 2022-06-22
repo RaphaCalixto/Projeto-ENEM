@@ -1,0 +1,23 @@
+#corpo_pagina {
+	width: 100%;
+	top:100%;
+	position: absolute;
+	height: 122px;
+	padding:0px;
+	display: block;
+	text-align: justify;
+	background: #3d87ff;
+}
+
+@media all and (min-width: 300px) and (max-width: 1300px) {
+	#corpo_pagina {
+	width: 100%;
+	top:983px;
+	position: absolute;
+	height: 144px;
+	padding:0px;
+	display: block;
+	text-align: justify;
+	background: #3d87ff;
+}
+}

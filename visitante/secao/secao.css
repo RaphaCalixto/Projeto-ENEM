@@ -1,0 +1,98 @@
+input {
+  width: 100%;
+  margin: 20px 0;
+  background: rgba(0,0,0,0);
+  border: none;
+  border-bottom: 1px solid rgba(255, 165, 0, .9);
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+::-webkit-input-placeholder {
+  color: #eaeaea;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+button{
+  padding: 20px 32px;
+  font-size: 16px;
+  background: rgba(255, 165, 0, .9);
+  border: none;
+  border-radius: 4px;
+  margin-top: 30px;
+  color: #fff;
+}
+
+.secao {
+      position: relative;
+    }
+    #secao-01 {
+      width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, .0), rgba(0, 0, 0, .0)), url(imagens/emat.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+    }
+    #secao-02 {
+      width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, .0), rgba(0, 0, 0, .0)), url(imagens/bra.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+
+    }
+    #secao-03 {
+      width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, .0), rgba(0, 0, 0, .0)), url(imagens/bra2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+    }
+    #secao-04 {
+      width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, .0), rgba(0, 0, 0, .0)), url(imagens/guia.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+    }
+    .icone-scroll {
+      position: absolute;
+      bottom: 3em;
+      width: 50px;
+      height: 50px;
+      background-color: #1E90FF;
+      border-radius: 50%;
+      left: 50%;
+      margin-left: -25px;
+      cursor: pointer;
+    }
+    .scroll {
+      width: 15px;
+      height: 15px;
+      border-right: 2px solid #fff;
+      border-bottom: 2px solid #fff;
+      display: inline-block;
+      position: relative;
+    }
+    .scroll-next {
+      transform: rotate(45deg);
+      margin: 14px 0 0 16.5px;
+    }
+    .scroll-top {
+      transform: rotate(225deg);
+      margin: 19px 0 0 17px;
+    }
+    .scroll-top + .scroll-top {
+      top: -15px;
+      margin-top: 0;
+    }

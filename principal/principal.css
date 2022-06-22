@@ -1,0 +1,271 @@
+
+
+    /*
+
+      CSS PRECISA DE ARQUIVO EXTERNO PARA MELHOR LEITURA DO DOCUMENTO PRINCIPAL
+
+      w3shools.com
+
+      youtube => freeCodeCamp,Traversy Media,
+
+    */
+    html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+body {
+  width: 100%;
+  height: 100vh;
+ background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(imagens/emat.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+  font-family: sans-serif;
+}
+
+
+input {
+  width: 100%;
+  margin: 20px 0;
+  background: rgba(0,0,0,0);
+  border: none;
+  border-bottom: 1px solid rgba(255, 165, 0, .9);
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+::-webkit-input-placeholder {
+  color: #eaeaea;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.button1{
+  padding: 20px 32px;
+  font-size: 16px;
+  background: rgba(255, 165, 0, .9);
+  border: none;
+  border-radius: 4px;
+  margin-top: 30px;
+  color: #fff;
+}
+
+.button2{
+  padding: 20px 32px;
+  font-size: 16px;
+  background: rgba(255, 165, 0, .9);
+  border: none;
+  border-radius: 4px;
+  margin-top: 30px;
+  color: #fff;
+}
+
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 80px;
+}
+
+
+.esquerda {
+  float: left;
+}
+
+.esquerda ul {
+  list-style: none;
+  padding: 1em 3em;
+}
+
+.esquerda ul li {
+  display: inline-block;
+}
+
+.esquerda ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+ font-size: 15px;
+  padding: 8px 16px;
+  transition: all .2s ease;
+font-family: "Glyphicons Halflings Regular";
+text-transform: uppercase
+}
+
+.esquerda a:hover {
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: rgba(30, 144, 255, .9);
+}
+
+.direita {
+  float: right;
+}
+
+.direita ul {
+  list-style: none;
+  padding: 1em 3em;
+}
+
+.direita ul li {
+  display: inline-block;
+}
+
+.direita ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  padding: 8px 16px;
+}
+
+.direita li:nth-child(2) a {
+  color: #fff;
+  border: 1px solid #1e90ff;
+  border-radius: 10px;
+  background-color: #1e90ff;
+}
+
+.cabecalho {
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cabecalho h1 {
+  color: #fff;
+  font-size: 46px;
+}
+
+.cabecalho p {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 140px;
+}
+
+.form {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+@media all and (max-width : 768px) {
+
+    
+  nav {
+    margin: 0;
+        width: 100%;
+        padding: 0;
+        
+  }
+
+  .menu {
+    display: none;
+        text-align: center;
+        width: 90%;
+  }
+
+  
+    
+
+  /* Change menu item's width to 100% */
+  nav ul li {
+    display: block;
+    width: 100%;
+    }
+  
+}
+
+@media all and (max-width : 700px) {
+    
+    nav{
+        width: 100%;
+        padding: 0;
+  margin: 0;
+        
+    }
+    .esquerda {
+  float: left;
+  font-size: 15px;
+  
+}
+
+.esquerda ul {
+  list-style: none;
+  padding: 1em 2em;
+}
+
+.direita {
+  float: left;
+}
+
+.direita ul {
+  list-style: none;
+  padding: 0em 2em;
+}
+
+}
+    
+
+
+.esquerdaa1 ul {
+  list-style: none;
+  padding: 1em 3em;
+}
+
+.esquerdaa1 ul li {
+  display: inline-block;
+  
+}
+
+.esquerdaa1 ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+ font-size: 15px;
+  padding: 8px 16px;
+  transition: all .2s ease;
+font-family: "Glyphicons Halflings Regular";
+text-transform: uppercase
+}
+
+.esquerdaa1 a:hover {
+
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: rgba(30, 144, 255, .9);
+}
+
+.forme {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+@media all and (min-width: 300px) and (max-width: 1300px) {
+
+.forme {
+  position: absolute;
+  top: 73%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+}
